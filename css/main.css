@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
+
 html, body {
     margin: 0;
     padding: 0;
@@ -74,7 +75,7 @@ main {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     position: relative;
     margin-top: 3em;
 }
@@ -89,7 +90,7 @@ h1:before {
 }
 
 p {
-    font-size: .9em;
+    font-size: .9rem;
     line-height: 1.4em;
     width: 90%;
     margin: 0 auto 2em;
@@ -131,7 +132,7 @@ p {
 }
 
 .fern {
-    background: url('/img/fern.svg') no-repeat;
+    background: url('fern.svg') no-repeat;
     height: 50vh;
     width: 70%;
     position: absolute;
@@ -140,6 +141,7 @@ p {
     z-index: -1;
     opacity: 0.1;
 }
+
 
 @media (min-width: 500px) {
     body {
